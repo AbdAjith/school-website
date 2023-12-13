@@ -1,0 +1,62 @@
+.Eightthcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -.5%;
+    background-color:#00358C;
+    padding-bottom: 5rem;
+}
+.Eightthcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #00358C;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    padding-top: 5%;
+    margin-left: 5rem;
+    text-align: left;
+}
+.Eightthcomponent-tripcard{
+    margin-top: 6rem;
+    margin-left: 5rem;
+    display: flex;
+}
+.Eightthcomponent-card{
+    height: 10rem;
+    width: 10rem;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-bottom: 3rem;
+    margin-right: 5rem;
+}
+.Eightthcomponent-body{
+    animation: scrollVideo 20s linear infinite;
+}
+.Eightthcomponent-body h4{
+    color: #00358C;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: -5rem;
+}
+.Eightthcomponent-body p{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: .3rem;
+    margin-left: -5rem;
+}
+@keyframes scrollVideo {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-400px * 4 - 10px * 3)); /* Adjust based on the number of videos and spacing */
+    }
+  }
+@media screen and (max-width: 555px){
+    .Eightthcomponent-text h1{
+        padding: 10px 20px;
+    }
+}

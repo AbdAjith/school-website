@@ -1,0 +1,60 @@
+.Secondcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -2%;
+    border-width: 1px;
+    border-color: #ddcfcf;
+}
+.Secondcomponent-img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover; 
+}
+.Secondcomponent-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-90%, -60%);
+    width: 50%;
+}
+.Secondcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 1px;
+}
+.Secondcomponent-text p{
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+    text-align: left;
+    width: 32rem;
+}
+.Secondcomponent-button{
+    text-decoration: none;
+    background-color: #003487;
+    padding: .7rem 2.5rem;
+    border-radius: 6px;
+    border-width: 0;
+    border-color: #0B2A5B;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    align-items:flex-start;
+    margin-right: 30rem;
+}
+@media screen and (max-width: 850px) {
+    .Secondcomponent-text h1 {
+        padding: 10px 20px;
+    }
+    .Secondcomponent-text p {
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .Secondcomponent-button {
+    align-items: flex-start;
+    }
+}

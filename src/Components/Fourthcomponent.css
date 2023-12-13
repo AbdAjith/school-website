@@ -1,0 +1,63 @@
+.Fourthcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -.5%;
+    background-color: #00358C;
+    border-width: 1px;
+    border-color: #ddcfcf;
+}
+.Fourthcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 2%;
+    text-align: left;
+    margin-left: 5rem;
+}
+.Fourthcomponent-circle{
+    width: 125px;
+    height: 9px;
+    background-color: goldenrod;
+    border-radius: 25px;
+    margin-left: 5rem;
+}
+.Fourthcomponent-circle2{
+    width: 9px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+.Fourthcomponent-value{
+    display: flex;
+    justify-content: flex-start;
+}
+.youtube-container {
+    display: flex;
+    max-width: 100%;
+    margin-left: 5rem;
+    margin-top: 4%;
+    padding-bottom: 2.5%;
+}  
+video {
+    height: 16rem;
+    width: 30rem;
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    animation: scrollVideo 20s linear infinite; 
+}
+@keyframes scrollVideo {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-400px * 4 - 10px * 3)); /* Adjust based on the number of videos and spacing */
+    }
+  }
+@media screen and (max-width: 555px){
+    .Secondcomponent-text h1{
+        padding: 10px 20px;
+    }
+}

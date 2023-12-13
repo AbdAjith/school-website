@@ -1,0 +1,99 @@
+.Thirdcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -.5%;
+    border-width: 1px;
+    border-color: #ddcfcf;
+}
+.Thirdcomponent-img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover; 
+}
+.Thirdcomponent-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-92%, -65%);
+    width: 50%;
+}
+.Thirdcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00358C;
+    text-align: left;
+    margin-left: 1rem;
+}
+.Thirdcomponent-text p{
+    font-size: 1.3rem;
+    color: rgb(176, 96, 250);
+    padding: 0.5rem 0 2rem 0;
+    text-align: left;
+    width: 35rem;
+    margin-left: 1rem;
+}
+.Thirdcomponent-button{
+    text-decoration: none;
+    background-color: #00358C;
+    padding: .7rem 2.5rem;
+    border-radius: 6px;
+    border-width: 0;
+    border-color: #0B2A5B;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 2rem;
+    align-items:flex-start;
+    margin-right: 28rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    width: 50%;
+  }
+  .container1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+  }
+  .container2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  .container3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  .container4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  .circle {
+    width: 70px;
+    height: 70px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+@media screen and (max-width: 850px) {
+.Secondcomponent-text h1 {
+    padding: 10px 10px;
+}
+.Secondcomponent-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+}
+.Secondcomponent-button {
+align-items: flex-start;
+}
+}

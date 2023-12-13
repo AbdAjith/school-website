@@ -1,0 +1,67 @@
+.Sixthcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -.5%;
+    background-color: #00358C;
+    padding-bottom: 2rem;
+}
+.Sixthcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #00358C;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    padding-top: 5%;
+    margin-bottom: 3rem;
+    text-align: left;
+    margin-left: 5rem;
+}
+.input1{
+    height: 3.5rem;
+    width: 30rem;
+    border-color: hsl(17, 37%, 40%);
+    border-radius: 8px;
+    border-width: 2px;
+    background-color: #00358C;
+    margin-bottom: 3rem;
+    margin-left: 35rem;
+}
+.input2{
+    height: 3.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    border-color: #8A5540;
+    background-color: #00358C;
+    margin-bottom: 3rem;
+    margin-left: 35rem;
+}
+@media screen and (max-width: 850px){
+    .Sixthcomponent-text h1{
+        padding: 10px 20px;
+    }
+    .input1{
+        width: 100%;
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+    .input2{
+        width: 100%;
+        margin-left: 7rem;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 555px){
+    .Sixthcomponent-text h1{
+        padding: 10px 20px;
+    }
+    .input1{
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .input2{
+        width: 100%;
+        margin-left: 5rem;
+        margin-right: 2rem;
+    }
+}

@@ -1,0 +1,94 @@
+.Fivethcomponent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -.5%;
+    background-color: #fff;
+    padding-bottom: 4%;
+    border-width: 1px;
+    border-color: #ddcfcf;
+}
+.Fivethcomponent-text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #00358C;
+    text-align: left;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+.Fivethcomponent-circle{
+    width: 125px;
+    height: 9px;
+    background-color: #FF8300;
+    border-radius: 25px;
+    margin-left: 5rem;
+}
+.Fivethcomponent-circle2{
+    width: 9px;
+    height: 9px;
+    background-color: #00358C;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+.Fivethcomponent-value{
+    display: flex;
+    justify-content: flex-start;
+}
+.tripcard{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.t-card{
+    width: 32%;
+    text-align: start;
+    box-shadow: 1px 2px 5px 1px rgba(189, 178, 178, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    padding-bottom: 3rem;
+}
+.t-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.t-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3 ease-in-out;
+    border-radius: 7px;
+}
+.t-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+    text-align: center;
+    color: #00358C;
+}
+.Fivethcomponent-but {
+    height: 14%;
+    width: 40%;
+    background-color: #FF7A00;
+    color: #fff;
+    border-radius: 6px;
+    border-color: #fff;
+    margin-top: 1rem;
+    border-width: 1px;
+    margin-left: 31%;
+}
+@media screen and (max-width: 850px){
+    .trip{
+        margin: 4rem 2rem;
+    }
+    .tripcard{
+        flex-direction: column;
+    }
+    .t-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .t-card h4{
+        text-align: center;
+    }
+}

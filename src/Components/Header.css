@@ -1,0 +1,53 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-width: 1px;
+    border-color: #ddcfcf;
+}
+.hero-img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover; 
+}
+.hero-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 100%;
+}
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    font-family: Rethink Sans;
+    letter-spacing: 1px;
+}
+.hero-button{
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    background:none;
+    margin-top: 3rem;
+    font-family: Rethink Sans;
+}
+@media screen and (max-width: 850px) {
+    .hero-img {
+        height: auto;
+    }
+    .hero-text {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .hero-button {
+        margin-top: 2rem;
+    }
+}
